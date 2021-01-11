@@ -60,6 +60,10 @@ class Foods{
       this.feedDog.style('border-radius', '100%');
       this.feedDog.style('background-color','color(25, 23, 200, 50)');
       this.feedDog.style("font-family","Comic Sans MS");
+        
+      if(foodS === 0){
+          this.feedDog.hide();
+      }
     }
 
   
