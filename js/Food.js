@@ -54,16 +54,15 @@ class Foods{
       this.addFood.style('background-color','color(25, 23, 200, 50)')
       this.addFood.style("font-family","Comic Sans MS");
 
+    if(foodS != 0){
       this.feedDog.position(780, 55);
       this.feedDog.size(110,35)
       this.feedDog.style('font-size', '15px');
       this.feedDog.style('border-radius', '100%');
       this.feedDog.style('background-color','color(25, 23, 200, 50)');
       this.feedDog.style("font-family","Comic Sans MS");
-        
-      if(foodS === 0){
-          this.feedDog.hide();
-      }
+     }
+
     }
 
   
