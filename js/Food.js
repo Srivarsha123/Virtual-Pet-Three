@@ -110,10 +110,12 @@ class Foods{
       this.feedDog.mousePressed(()=> {
         foodObj.writeStock(foodS)
         dog.addImage(happyDogImg)
-        console.log("hello")
-        this.feedDog.hide();
+        //console.log("hello")
       });
       }
+     else{
+         this.feedDog.hide();
+     }
   }
 
 }
